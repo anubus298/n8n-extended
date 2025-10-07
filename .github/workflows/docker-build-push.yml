@@ -26,9 +26,9 @@ jobs:
       - name: Build Docker image
         run: |
           docker build \
-            -t ghcr.io/${{ github.repository_owner }}/n8n-latex:latest .
+            -t ghcr.io/${{ github.repository_owner }}/n8n-ffmpeg:latest .
 
       # Push the Docker image to GHCR
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/n8n-latex:latest
+          docker push ghcr.io/${{ github.repository_owner }}/n8n-ffmpeg:latest
