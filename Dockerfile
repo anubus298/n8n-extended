@@ -2,6 +2,6 @@ FROM n8nio/n8n:latest
 
 USER root
 
-RUN apk add --no-cache ffmpeg
+RUN apk add --no-cache ffmpeg sqlite
 
 USER node
